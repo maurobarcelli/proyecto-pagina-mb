@@ -1,0 +1,108 @@
+/*comentario
+elemento {
+    propiedad: valor;
+}
+*/
+/* unidades de medida absoluta */
+/* no olvidar ; al final */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
+/* https://cssgenerator.org/ */
+
+header {
+    background-color: #e1e8ea42;
+    display: flex;
+    flex-direction: row;
+    height: 200 px;
+}
+.navbar navbar-expand-lg bg-body-tertiary {
+    background-color: #e1e8ea42;
+    justify-content: space-evenly;
+}
+
+
+.menu{
+    color: #274b5d;
+    text-align: right;
+    font-size: 20 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+}
+main {
+    background-color: #e1e8ea42;
+}
+
+main div img { 
+    height: 30%;
+    width: 30%;
+}
+
+h1 { 
+    color: #508991;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+h2 {
+    color: #508991;
+    text-align: left;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;  
+}
+h3 {
+    color: #508991;
+    text-align: left;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal; 
+}
+h4 {
+    color: #223d41;
+    text-align: left;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold; 
+}
+h5 {
+    color: #223d41;
+    text-align: center;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold; 
+}
+
+p {
+    color: #274b5d;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.d-block img {
+    width: 80%;
+}
+.layout {
+    width: 100%;
+
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+.logorrss img {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.cursos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #e1e8ea;
+    color: #274b5d;
+    font-size: 20 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
